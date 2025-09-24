@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТОО "РЦШ ПВАСС" - Кызылординский филиал "Ак Берен"</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo-container">
+                <img src="akberen_logo.png" alt="Логотип ТОО 'РЦШ ПВАСС' Ак Берен" class="logo">
+                <a href="#" class="logo-text">ТОО "РЦШ ПВАСС"</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Услуги <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="rescue-services.html">Аварийно-спасательные</a></li>
+                            <li><a href="search-operations.html">Поисковые</a></li>
+                            <li><a href="industrial-safety.html">Промышленная безопасность</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="equipment.html">Техника</a></li>
+                    <li><a href="documents.html">Документы</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#vacancies">Вакансии</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn-primary" id="call-modal-btn">Экстренный вызов</a>
+            <div class="mobile-nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero-section">
+            <div class="container hero-content">
+                <p class="hero-subtitle">Профессиональная военизированная аварийно-спасательная служба</p>
+                <h1 class="hero-title">Кызылординский филиал "Ак Берен"</h1>
+                <p class="hero-mission">Никто кроме нас</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-secondary">Связаться с нами</a>
+                    <a href="#about" class="btn btn-tertiary">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">О нас</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>ТОО "РЦШ ПВАСС" Кызылординский филиал "Ак Берен" — это профессиональная военизированная аварийно-спасательная служба, входящая в структуру Республиканского центрального штаба. Мы обеспечиваем безопасность и помощь в самых сложных чрезвычайных ситуациях природного и техногенного характера.</p>
+                        <p>Наша команда состоит из высококвалифицированных специалистов, прошедших специальную подготовку. Мы специализируемся на ликвидации последствий техногенных и природных катастроф, проведении поисково-спасательных операций, а также обучении работников нефтегазовой отрасли по вопросам промышленной безопасности.</p>
+                        <p>Наша миссия — быть всегда начеку, чтобы оперативно прийти на помощь, спасать жизни и защищать имущество в любых условиях.</p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check-circle"></i> Опыт работы более 20 лет</li>
+                            <li><i class="fas fa-check-circle"></i> Современное оборудование и техника</li>
+                            <li><i class="fas fa-check-circle"></i> Круглосуточная готовность к выезду</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="sotrudniki.jpeg" alt="Сотрудники Ак Берен" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="service-grid">
+                    <a href="rescue-services.html" class="service-link">
+                        <div class="service-item">
+                            <i class="fas fa-fire-extinguisher"></i>
+                            <h3>Аварийно-спасательные работы</h3>
+                            <p>Ликвидация последствий техногенных и природных катастроф, включая нефтегазоводопроявления и открытые фонтаны. Мы готовы к любым вызовам 24/7.</p>
+                        </div>
+                    </a>
+                    <a href="search-operations.html" class="service-link">
+                        <div class="service-item">
+                            <i class="fas fa-search-location"></i>
+                            <h3>Поисково-спасательные операции</h3>
+                            <p>Поиск и спасение людей в труднодоступных местах и зонах бедствия. Наши команды оснащены всем необходимым оборудованием.</p>
+                        </div>
+                    </a>
+                    <a href="industrial-safety.html" class="service-link">
+                        <div class="service-item">
+                            <i class="fas fa-hard-hat"></i>
+                            <h3>Промышленная безопасность</h3>
+                            <p>Проведение учебно-тренировочных занятий и подготовка специалистов для работы на опасных производственных объектах. Мы обучаем тому, что знаем на практике.</p>
+                        </div>
+                    </a>
+                    <a href="medical-assistance.html" class="service-link">
+                        <div class="service-item">
+                            <i class="fas fa-truck-medical"></i>
+                            <h3>Медицинская помощь</h3>
+                            <p>Оказание первой медицинской помощи пострадавшим в зонах аварий и стихийных бедствий до прибытия специализированных бригад.</p>
+                        </div>
+                    </a>
+                    <a href="anti-fountain-works.html" class="service-link">
+                        <div class="service-item">
+                            <i class="fas fa-oil-well"></i>
+                            <h3>Противофонтанные работы</h3>
+                            <p>Специализированные мероприятия по ликвидации открытых фонтанов на нефтегазовых скважинах. Наш опыт позволяет решать самые сложные задачи.</p>
+                        </div>
+                    </a>
+                    <a href="technical-support.html" class="service-link">
+                        <div class="service-item">
+                            <i class="fas fa-wrench"></i>
+                            <h3>Техническая поддержка</h3>
+                            <p>Обслуживание и ремонт противопожарного и спасательного оборудования. Мы гарантируем надежность и готовность вашей техники.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <h2 class="section-title">Галерея</h2>
+                <p class="section-subtitle">Ознакомьтесь с нашей работой и подготовкой</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-src="1.jpg" alt="Группа спасателей в защитной форме"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1550222046-816997017686?q=80&w=2940&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1550222046-816997017686?q=80&w=2940&auto=format&fit=crop" alt="Пожарная машина на вызове"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1620025916056-b0409a633100?q=80&w=2942&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1620025916056-b0409a633100?q=80&w=2942&auto=format&fit=crop" alt="Учебная тренировка по спасению"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1549419163-453b3b3a3b04?q=80&w=2942&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1549419163-453b3b3a3b04?q=80&w=2942&auto=format&fit=crop" alt="Спасатель, работающий с оборудованием"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1607542980757-0e6e8e844517?q=80&w=2832&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1607542980757-0e6e8e844517?q=80&w=2832&auto=format&fit=crop" alt="Спасательная команда, готовая к работе"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1594967399222-7771f280b18f?q=80&w=2832&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1594967399222-7771f280b18f?q=80&w=2832&auto=format&fit=crop" alt="Специальное снаряжение спасателей"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1620025916056-b0409a633100?q=80&w=2942&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1620025916056-b0409a633100?q=80&w=2942&auto=format&fit=crop" alt="Группа спасателей в защитной форме"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1550222046-816997017686?q=80&w=2940&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1550222046-816997017686?q=80&w=2940&auto=format&fit=crop" alt="Пожарная машина на вызове"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1620025916056-b0409a633100?q=80&w=2942&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1620025916056-b0409a633100?q=80&w=2942&auto=format&fit=crop" alt="Учебная тренировка по спасению"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1549419163-453b3b3a3b04?q=80&w=2942&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1549419163-453b3b3a3b04?q=80&w=2942&auto=format&fit=crop" alt="Спасатель, работающий с оборудованием"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1607542980757-0e6e8e844517?q=80&w=2832&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1607542980757-0e6e8e844517?q=80&w=2832&auto=format&fit=crop" alt="Спасательная команда, готовая к работе"></div>
+                    <div class="gallery-item" data-src="https://images.unsplash.com/photo-1594967399222-7771f280b18f?q=80&w=2832&auto=format&fit=crop"><img src="https://images.unsplash.com/photo-1594967399222-7771f280b18f?q=80&w=2832&auto=format&fit=crop" alt="Специальное снаряжение спасателей"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="section news-section">
+            <div class="container">
+                <h2 class="section-title">Новости и события</h2>
+                <div class="news-list">
+                    <div class="news-item">
+                        <div class="news-date">
+                            <div>23</div>
+                            <div>Июня</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Противоаварийная тренировка на объекте</h3>
+                            <p>Сотрудники филиала "Ак Берен" успешно провели общестанционную противоаварийную тренировку по теме "Разгерметизация контейнера с хлором". Мероприятие позволило отработать ключевые навыки и действия в условиях, максимально приближенных к реальным. Были задействованы все службы реагирования, а оценка экспертов показала высокую готовность команды к чрезвычайным ситуациям.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <div>18</div>
+                            <div>Июля</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Курсы по промышленной безопасности</h3>
+                            <p>В нашем учебном центре стартовали курсы профессиональной подготовки для работников нефтегазовой отрасли. Программа включает теоретические и практические занятия по ликвидации аварий, использованию спасательного оборудования и оказанию первой помощи. По завершении курсов всем участникам будут выданы сертификаты установленного образца.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <div>05</div>
+                            <div>Авг</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Новая техника для спасателей</h3>
+                            <p>Автопарк филиала пополнился новой, современной спасательной техникой. Новые автомобили оснащены передовым оборудованием, что позволит нашим командам еще быстрее и эффективнее реагировать на вызовы любой сложности в самых труднодоступных местах.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <div>12</div>
+                            <div>Сент</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Соревнования по профмастерству</h3>
+                            <p>Наша команда приняла участие в региональных соревнованиях по профессиональному мастерству среди аварийно-спасательных служб. По результатам соревнований, команда филиала "Ак Берен" заняла призовое место, продемонстрировав высокий уровень подготовки и слаженную работу.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <div>29</div>
+                            <div>Сент</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Учения с участием МЧС</h3>
+                            <p>Совместно с подразделениями МЧС были проведены масштабные учения по ликвидации условного пожара на промышленном объекте. Мероприятие прошло успешно, все поставленные задачи были выполнены в полном объеме. Учения позволили укрепить взаимодействие между службами и отработать алгоритмы совместных действий.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <div>10</div>
+                            <div>Окт</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>День открытых дверей</h3>
+                            <p>В филиале состоялся День открытых дверей для школьников и студентов. Наши сотрудники рассказали о своей работе, показали современную технику и оборудование. Все желающие смогли попробовать себя в роли спасателя на тренировочном полигоне. Мероприятие было направлено на популяризацию профессии спасателя и повышение уровня знаний о безопасности.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section reviews-section">
+            <div class="container">
+                <h2 class="section-title">Отзывы наших клиентов</h2>
+                <p class="section-subtitle">Мы гордимся доверием, которое нам оказывают</p>
+                <div class="reviews-slider">
+                    <div class="review-item">
+                        <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Спасибо команде 'Ак Берен' за оперативную и профессиональную помощь. Они прибыли на объект в считанные минуты и быстро локализовали утечку. Настоящие герои!"</p>
+                        <div class="review-author">- Сарсенбаев А.М., директор ТОО "Нефтепром"</div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Курсы по промышленной безопасности, организованные "Ак Берен", превзошли все наши ожидания. Высокий уровень подготовки инструкторов и отличная материально-техническая база. Рекомендуем!"</p>
+                        <div class="review-author">- Каримов Ж.К., главный инженер</div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"В критической ситуации они действовали быстро и слаженно. Благодаря их действиям, удалось избежать серьезных последствий. Спасибо за ваш нелегкий труд!"</p>
+                        <div class="review-author">- Анонимный отзыв</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section faq-section">
+            <div class="container">
+                <h2 class="section-title">Часто задаваемые вопросы</h2>
+                <p class="section-subtitle">Ответы на самые популярные вопросы о нашей работе</p>
+                <div class="faq-accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <i class="fas fa-question-circle"></i> Какие услуги предоставляет ваша служба?
+                        </div>
+                        <div class="accordion-content">
+                            <p>Мы оказываем широкий спектр услуг, включая аварийно-спасательные работы, поисково-спасательные операции, ликвидацию последствий техногенных и природных катастроф, а также обучение по промышленной безопасности для сотрудников нефтегазовой отрасли.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <i class="fas fa-question-circle"></i> Как вызвать вашу команду в экстренной ситуации?
+                        </div>
+                        <div class="accordion-content">
+                            <p>В экстренной ситуации вы можете немедленно связаться с нами по номеру телефона: <b>87242400700</b>. Наша дежурная часть работает круглосуточно и без выходных.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <i class="fas fa-question-circle"></i> Где находится ваш филиал?
+                        </div>
+                        <div class="accordion-content">
+                            <p>Наш филиал расположен по адресу: г. Кызылорда, ул. Примерная, 1. Вы всегда можете найти нас на карте, перейдя по ссылке в разделе "Контакты".</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <i class="fas fa-question-circle"></i> Можете ли вы проводить тренировки на территории нашего предприятия?
+                        </div>
+                        <div class="accordion-content">
+                            <p>Да, мы можем организовать и провести учебно-тренировочные занятия непосредственно на территории вашего объекта, с учетом его специфики и рисков. Для обсуждения деталей, пожалуйста, свяжитесь с нашим отделом по работе с клиентами.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <i class="fas fa-question-circle"></i> Предоставляете ли вы консультации по вопросам безопасности?
+                        </div>
+                        <div class="accordion-content">
+                            <p>Конечно. Наши специалисты проводят консультации по вопросам промышленной и пожарной безопасности. Мы поможем вам разработать планы по ликвидации аварий и подготовить персонал к возможным чрезвычайным ситуациям.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vacancies" class="section vacancies-section">
+            <div class="container">
+                <h2 class="section-title">Вакансии</h2>
+                <p class="section-subtitle">Присоединяйтесь к нашей команде профессионалов!</p>
+                <div class="vacancies-list">
+                    <div class="vacancy-item">
+                        <div class="vacancy-header">
+                            <h3>Спасатель-пожарный</h3>
+                            <span>Зарплата: по договоренности</span>
+                        </div>
+                        <p class="vacancy-description">Приглашаем на работу физически выносливых и ответственных сотрудников. Требуется опыт работы и наличие соответствующих сертификатов.</p>
+                        <ul class="vacancy-requirements">
+                            <li><i class="fas fa-medal"></i> Опыт работы не менее 3 лет</li>
+                            <li><i class="fas fa-file-invoice"></i> Наличие сертификатов (пожарная безопасность, первая помощь)</li>
+                            <li><i class="fas fa-user-shield"></i> Готовность к работе в экстремальных условиях</li>
+                        </ul>
+                        <a href="mailto:hr@akberen.kz" class="btn btn-apply">Откликнуться</a>
+                    </div>
+                    <div class="vacancy-item">
+                        <div class="vacancy-header">
+                            <h3>Инженер по промышленной безопасности</h3>
+                            <span>Зарплата: по договоренности</span>
+                        </div>
+                        <p class="vacancy-description">Ищем специалиста с опытом в проведении аудита и разработке мер по обеспечению промышленной безопасности на объектах.</p>
+                        <ul class="vacancy-requirements">
+                            <li><i class="fas fa-medal"></i> Опыт работы от 5 лет</li>
+                            <li><i class="fas fa-graduation-cap"></i> Высшее техническое образование</li>
+                            <li><i class="fas fa-tasks"></i> Знание законодательства РК в области ПБ</li>
+                        </ul>
+                        <a href="mailto:hr@akberen.kz" class="btn btn-apply">Откликнуться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <p class="section-subtitle">Мы всегда на связи, чтобы помочь вам</p>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Телефон</h3>
+                        <p>Экстренный вызов: <a href="tel:87242400700"><b>87242400700</b></a></p>
+                        <p>Офис: <a href="tel:87242400701"><b>87242400701</b></a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>Для общих вопросов: <a href="mailto:info@akberen.kz">info@akberen.kz</a></p>
+                        <p>Для сотрудничества: <a href="mailto:partner@akberen.kz">partner@akberen.kz</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Адрес</h3>
+                        <p>г. Кызылорда, ул. Примерная, 1</p>
+                        <a href="https://maps.google.com/?q=Кызылорда, ул. Примерная, 1" target="_blank" class="map-link">Открыть на карте <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col about-col">
+                    <h4>О компании</h4>
+                    <p>Кызылординский филиал "Ак Берен" — лидер в сфере аварийно-спасательных работ и промышленной безопасности. Мы спасаем жизни и защищаем имущество.</p>
+                </div>
+                <div class="footer-col links-col">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#vacancies">Вакансии</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col social-col">
+                    <h4>Социальные сети</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col contact-col">
+                    <h4>Свяжитесь с нами</h4>
+                    <p><i class="fas fa-phone"></i> +7 (7242) 400-700</p>
+                    <p><i class="fas fa-envelope"></i> info@akberen.kz</p>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Кызылорда, ул. Примерная, 1</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ТОО "РЦШ ПВАСС". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="call-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <h2>Экстренный вызов</h2>
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <p>В случае аварии или чрезвычайной ситуации, немедленно звоните по номеру ниже. Наша команда готова к выезду 24/7.</p>
+            <a href="tel:87242400700" class="btn btn-modal-call">87242400700</a>
+            <p class="modal-note">Оставайтесь на связи и четко следуйте инструкциям оператора.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
