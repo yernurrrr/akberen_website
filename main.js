@@ -168,3 +168,56 @@ document.addEventListener('DOMContentLoaded', () => {
     // Вызываем функцию для добавления дополнительного контента при загрузке страницы
     addDynamicContent();
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
+
+    if (mobileNavToggle) {
+        mobileNavToggle.addEventListener('click', () => {
+            mobileNav.classList.toggle('open');
+        });
+    }
+
+    const dropdownToggles = document.querySelectorAll('.mobile-nav .dropdown > a');
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            const dropdownMenu = toggle.nextElementSibling;
+            if (dropdownMenu) {
+                dropdownMenu.classList.toggle('open');
+            }
+        });
+    });
+
+    // Close mobile nav when a link is clicked
+    const navLinks = document.querySelectorAll('.mobile-nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileNav.classList.remove('open');
+        });
+    });
+
+    // Modal functionality (if you have it)
+    const callModalBtn = document.querySelector('#call-modal-btn');
+    const callModal = document.querySelector('#call-modal');
+    const closeModalBtn = document.querySelector('.modal .close-btn');
+
+    if (callModalBtn) {
+        callModalBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            callModal.style.display = 'block';
+        });
+    }
+
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', () => {
+            callModal.style.display = 'none';
+        });
+    }
+
+    window.addEventListener('click', (e) => {
+        if (e.target === callModal) {
+            callModal.style.display = 'none';
+        }
+    });
+});
